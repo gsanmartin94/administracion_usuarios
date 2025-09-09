@@ -1,0 +1,7 @@
+*
+.nav-link.active {
+    background-color: #007bff; /* azul bootstrap */
+    color: black !important;
+    font-weight: bold;
+    border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+*
+.timeline {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px dashed #ccc;
+}
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+.timeline-item::before {
+    content: "✔";
+    position: absolute;
+    left: -24px;
+    top: 0;
+    font-size: 16px;
+    color: #2c3e50;
+    background: #fff;
+    border-radius: 50%;
+}
+.estado-fecha {
+    font-weight: bold;
+}

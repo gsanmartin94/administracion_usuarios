@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "supervisor";
 $password = "root";
-$dbname = "munpa_seguridad";
+$dbname = "prueba_munpa_seguridad";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

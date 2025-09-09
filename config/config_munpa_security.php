@@ -1,7 +1,7 @@
 <?php
 class Config_munpa_security {
     private $host = "localhost";
-    private $db_name = "munpa_seguridad";
+    private $db_name = "prueba_munpa_seguridad";
     private $username = "supervisor";
     private $password = "root";
     private $conn;
